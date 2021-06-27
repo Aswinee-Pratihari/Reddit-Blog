@@ -1,0 +1,218 @@
+.poppin{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.flex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.between{
+    justify-content: space-between;
+}
+.text-center{
+    text-align: center;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.white{
+    color: white;
+}
+.head1{
+    background-image: linear-gradient(rgba(255, 111, 55, 0.5),rgba(156, 119, 150, 0.9)), url(./img/img1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+.head1 .container{
+    padding: 3rem;
+}
+
+.head1 .container .left  h1{
+    font-size: 26px;
+   color: white;
+}
+.head1 .container .left  h1 span{
+    color: gold;
+}
+
+
+
+.head1 .container .right a{
+    padding-right: 3rem;
+    text-decoration: none;
+    color: white;
+}
+.head1 .container .right a:hover{
+    color: gold;
+    transition: all 0.6s ease;
+}
+.head1 .container .main{
+
+    width: 80vw;
+    height: 80vh;
+}
+.head1 .container .main .content span{
+    font-size: 1.5rem;
+    color: white;
+}
+.head1 .container .main .content h1{
+    font-size: 8rem;
+    color: white;
+}
+.head1 .container .main .content p{
+    width: 75%;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: white;
+}
+
+
+.head2 .container{
+    padding: 3rem;
+}
+
+.head2 .container .hero .case .img img{
+    height: 450px;
+    width: 800px;
+}
+.head2 .container .hero .content {
+    width: 30%;
+    margin-left: 3rem;
+   
+}
+.head2 .container .hero .content a h1{
+    font-size: 2.5rem;
+}
+
+.head2 .container .hero .content a h1:hover{
+    color:rgb(184, 180, 180) ;
+    transition: all 0.2s ease;
+
+}
+.head2 .container .hero .content a{
+    text-decoration: none;
+    color: black;
+}
+.head2 .container .hero .content a img{
+    background: rgb(184, 180, 180);
+    padding: 1rem;
+    margin:1rem 0.5rem;
+    border-radius: 4px;
+}
+.head2 .container .hero .content a img:hover{
+    background: gold;
+    transition: all 0.6s ease;
+}
+
+.head2 .container .hero{
+    margin-top: 2rem;
+}
+
+.head3{
+    background-color: rgb(2, 2, 66);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 80vh;
+}
+
+.head3 .container{
+    margin: 3rem;
+ 
+}
+.head3 .container .case1 .case h1{
+    font-size: 26px;
+   color: white;
+}
+.head3 .container .case1 .case p{
+    margin: 2rem 0;
+}
+
+.head3 .container .case1 .case span{
+    color: gold;
+}
+.head3 .container .case1 .case img{
+background-color: black;
+padding: 1rem;
+margin: 2rem 1rem;
+border-radius: 40%;
+}
+.head3 .container .case2 .case img{
+width: 7vw;
+border-radius: 5px;
+}
+
+.case{
+    margin-left: 2rem;
+}
+
+.case1{
+ 
+    width: 35%;
+    padding-right: 0px;
+    margin-top: 2rem;
+}
+
+.case2{
+    /* border: 2px solid green; */
+    margin-top: 1rem;
+    width: 37%;
+}
+
+.case2 .case a p{
+    width: 80%;
+    padding-left: 1rem;
+}
+.case2 .case a{
+    text-decoration: none;
+    color: rgb(167, 167, 167);
+}
+.case2 .case span{
+    font-size: 1.2rem;
+}
+.case2 .case a:hover{
+    color: gold;
+    transition: all 0.5s ease;
+}
+
+.case2 .case >div{
+    margin-top: 2rem;
+}
+
+.case3{
+ 
+    margin-top: 1rem;
+   
+}
+.case3 .case span{
+  margin-left: 0px;
+ 
+}
+.case3 .case a ul {
+    margin-top: 3rem;
+    
+   
+}
+.case3 .case a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.case3 .case a ul li{
+    margin-top: 1rem;
+   
+}
+.case3 .case a ul li:hover{
+    color: gold;
+    transition: all 0.5s ease;
+}
